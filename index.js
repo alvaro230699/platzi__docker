@@ -12,10 +12,10 @@ app.get('/', (req, res) => {
     if (err) {
       res.status(500).send('💥 BOOM 💥: ' + err);
     } else {
-      res.send('Me conecté a la DB! 😎');
+      res.send('Me conecté a la DB GOZUUU1231! 😎');
       db.close();
     }
   });
 });
 
-app.listen(port, () => console.log(`Server listening on port ${port}!`))
+app.listen(port, () => console.log(`server listening on port ${port}! RAAA`))
